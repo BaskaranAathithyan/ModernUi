@@ -1,6 +1,6 @@
-export { default as Blog } from './blog/Blog';
+export { default as contact } from './contact/Contact';
 export { default as Footer } from './footer/Footer';
 export { default as Header } from './header/Header';
 export { default as Features } from './features/Features';
-export { default as Posibility } from './posibility/Posibility';
-export { default as WhatGPT3 } from './whatGPT3/WhatGPT3';
+export { default as Gallery } from './gallery/Gallery';
+export { default as WhatGPT3 } from './about/About';
