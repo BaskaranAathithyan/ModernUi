@@ -17,6 +17,8 @@
     font-size: 62px;
     line-height: 75px;
     letter-spacing: -0.04rem;
+    padding-left: 1.5rem;
+    
 }
 
 .master__header-content p{
@@ -25,12 +27,16 @@
     line-height: 27px;
     color: var(--color-text);
     margin-top: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1rem;
 }
 
 .master__header-content__input{
     width: 100%;
     margin: 2rem 0 1rem;
     display: flex;
+    padding-left: 1.5rem;
+    padding-right: 1rem;
 }
 .master__header-content__input input{
     flex: 2;
@@ -52,7 +58,7 @@
     width: 100%;
     min-height: 50px;
     background: #ff4820;
-    border-radius: 5px 0px 0px 5px;
+    border-radius: 0px 5px 5px 0px;
     font-family:var(--font-family) ;
     font-weight: bold;
     font-size: 20px;
@@ -76,6 +82,7 @@
 .master__header-content__people img{
     width: 182px;
     height: 38px;
+    padding-left: 1.5rem;
 }
 .master__header-content__people p{
     margin: 0 0 0 1rem;
@@ -99,7 +106,7 @@
     height: 100%;
 }
 
-@mdeia screen and (max-width:1050px){
+@media screen and (max-width:1050px){
     .master__header{
         flex-direction:column;
     }
@@ -108,7 +115,7 @@
     }
 }
 
-@mdeia screen and (max-width:650px){
+@media screen and (max-width:650px){
     .master__header h1{
         font-size:48px;
         line-height:60px;
@@ -122,5 +129,26 @@
     }
     .master__header-content__people p{
         margin:0;
+    }
+    .master__header-content__input input,
+    .master__header-content__input button{
+        Font: sixe 16px;
+        line-height:24px;
+    }
+}
+
+@media screen and (max-width:490px){
+    .master__header h1{
+        font-size:36px;
+        line-height:48px;
+    }
+    .master__header p{
+        font-size:14px;
+        line-height:24px;
+    }
+    .master__header-content__input input,
+    .master__header-content__input button{
+        font-size:12px;
+        line-height:16px;
     }
 }

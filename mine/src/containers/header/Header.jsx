@@ -14,14 +14,14 @@ const Header = () => (
                     <button type="button">Get Started</button>
                 </div>
 
-                <div className="master_header-content__people">
+                <div className="master__header-content__people">
                     <img src={people} />
                     <p>we have done with 1000+ projects..</p>
                 </div>
-
-                <div className="master__header-image">
-                    <img src={camera}/>
-                </div>
+            </div>
+            
+            <div className="master__header-image">
+                <img src={camera}/>
             </div>
         </div>
     );
