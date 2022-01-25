@@ -1,0 +1,22 @@
+.master__about {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    background: var(--color-footer);
+
+    
+}
+
+.master__about-heading h1{
+    align-items: center;
+    text-align: center;
+    color: var(--color-text);
+    font-weight: 5rem;
+}
+
+.master__about-heading p{
+    padding-top: 2rem;
+    text-align: justify;
+    color: var(--color-text);
+}
+

@@ -14,7 +14,6 @@ const App = () => (
     </div>
     <Brand />
     <About />
-    <Features />
     <gallery />
     <CTA />
     <contact />

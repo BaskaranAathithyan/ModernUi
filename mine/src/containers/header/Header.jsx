@@ -7,7 +7,7 @@ const Header = () => (
     
         <div className="master__header section-padding" id="home">
             <div className="master__header-content">
-                <h1 className="gradient__text">DESIGNING YOUR PERFECT DAY WITH MASTER STUDIO!</h1>
+                <h1 className="gradient__text">CAPTURING YOUR PERFECT DAY WITH MASTER STUDIO!</h1>
                 <p>We specialize in wedding photography, corporate, family and senior portraits, often traveling to your destination to capture the perfect moment in the perfect place. We will be there with you every step of the way to guarantee your special moments are captured for all time.</p>
                 <div className="master__header-content__input">
                     <input type="email" placeholder="Your Email address" />
